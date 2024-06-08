@@ -4,7 +4,7 @@ This project leverages deep learning for cloud removal in full-disk solar images
 ## Setup
 Project Clone to Local
 ```
-git clone http...
+git clone https://github.com/dupeng24/cloud-removal.git
 ```
 To install dependencies:
 
