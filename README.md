@@ -15,6 +15,11 @@ conda install numpy=1.25.0
 conda install scikit-image=0.20.0
 conda install h5py=3.9.0
 ```
+## Cloud detection and classification
+To conduct cloud detection and categorization, please change the name of the corresponding folder first, run these commands:
+```
+python finallyquality.py
+```
 ## Training
 Please run the following to generate the h5 dataset file:
 ```
