@@ -160,10 +160,10 @@ def main():
                     cloud3.append(files_clear[j][:-4])
 
     print(data)
-    print("The pictures without cloud contamination are："+str(clean)+" total:"+str(len(clean)))
-    print("Pictures of mild cloud contamination include：" + str(cloud1)+" total:"+str(len(cloud1)))
-    print("Pictures of moderate cloud contamination include：" + str(cloud2)+" total:"+str(len(cloud2)))
-    print("Pictures of severe cloud contamination include：" + str(cloud3)+" total:"+str(len(cloud3)))
+    print("The cloud-free images are："+str(clean)+" total:"+str(len(clean)))
+    print("Images of mild cover cloud include：" + str(cloud1)+" total:"+str(len(cloud1)))
+    print("Images of moderate cover cloud include：" + str(cloud2)+" total:"+str(len(cloud2)))
+    print("Images of severe cover cloud include：" + str(cloud3)+" total:"+str(len(cloud3)))
     print("other：" + str(eor)+" total"+str(len(eor)))
 
 
