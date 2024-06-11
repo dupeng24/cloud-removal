@@ -39,20 +39,6 @@ class Dataset(udata.Dataset):
 		return torch.Tensor(data)
 
 def data_augmentation(clear ,haze, mode):
-    r"""Performs dat augmentation of the input image
-
-    Args:
-        image: a cv2 (OpenCV) image
-        mode: int. Choice of transformation to apply to the image
-            0 - no transformation
-            1 - flip up and down
-            2 - rotate counterwise 90 degree
-            3 - rotate 90 degree and flip up and down
-            4 - rotate 180 degree
-            5 - rotate 180 degree and flip
-            6 - rotate 270 degree
-            7 - rotate 270 degree and flip
-    """
     clear = np.transpose(clear, (1, 2, 0))
     haze = np.transpose(haze, (1, 2, 0))
     if mode == 0:
