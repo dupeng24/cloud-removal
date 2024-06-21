@@ -1,4 +1,4 @@
-# Cloud removal in full-disk solar images using deep learning
+# Cloud Removal in Full-disk Solar Images Using Deep Learning
 ![network structure](https://github.com/dupeng24/cloud-removal/assets/103308215/b8175046-62e0-40c6-8703-e9b94363dcdf)
 This project leverages deep learning for cloud removal in full-disk solar images, encompassing both datasets and network structure. 
 ## Setup
@@ -15,7 +15,7 @@ conda install numpy=1.25.0
 conda install scikit-image=0.20.0
 conda install h5py=3.9.0
 ```
-## Cloud detection and classification
+## Cloud Detection and Classification
 To conduct cloud detection and categorization, please change the name of the corresponding folder first, run these commands:
 ```
 python finallyquality.py
