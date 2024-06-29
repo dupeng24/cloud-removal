@@ -1,5 +1,5 @@
 # Cloud Removal in Full-disk Solar Images Using Deep Learning
-![network structure](https://github.com/dupeng24/cloud-removal/assets/103308215/b8175046-62e0-40c6-8703-e9b94363dcdf)
+![network structure](https://github.com/dupeng24/cloud-removal/assets/103308215/b267408d-f7d6-4ac6-a6a3-3550b260ab4e)
 This project leverages deep learning for cloud removal in full-disk solar images, encompassing both datasets and network structure. 
 ## Setup
 Project Clone to Local
